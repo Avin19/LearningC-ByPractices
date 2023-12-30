@@ -1,0 +1,91 @@
+Some C# projects are simple enough that even complete beginners can complete them, while other C# project ideas require more experience. Our list of cool coding projects to help you master C# includes options for beginner, intermediate, and advanced programmers.
+
+
+
+
+Best C# Project Ideas for Beginners 
+        
+        If you are new to coding, have limited experience in C#, and want to learn how to make a web application, you should first start with a beginner coding project. C# projects for beginners can typically be completed within a few hours or days. Some of them can even be completed with just a few lines of code and other development tools. The top five C# project ideas for beginners are listed below.
+
+-Create a Movie Database Library
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    If you know how to use C# and Visual Studio, you can create a movie library that works in any basic search engine in under 30 minutes. This data-driven application will contain a collection of movies organized by genre and length in a list of search results. You can build more complexity into the program as you gain more skills, so you can grow this simple C# program as you learn.
+    Visual studios can be used to easily create the front end of the application, while Microsoft SQL Server can handle the backend as the database. You can also add a star rating system and menu bar that allows you to rate the movies listed on the database. 
+
+Create an Online Voting System 
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    Building an online poll is one of the most basic things you can design with ASP.Net C# on Microsoft Visual Studio 2010. It can be a single-poll page or a page that can be adjusted as needed. Users should be able to vote and see how the votes are trending. You could also include a modify button that allows users to change their votes.
+
+Note-taking Application 
+    C# Skills Practiced: Coding
+    Creating a note-taking application is an easy C# project that is functional and useful. A simple note-taking application project can build your analytical thinking skills and train you to find a solution when errors occur. Apart from C#, you also need to learn how to write and edit XML files. This application does not require any prior knowledge of graphical user interfaces.
+
+Social Media Bot 
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    Have you ever wondered how social media bots on Twitter, Facebook, and other platforms work? You can learn the inner workings of a simple bot and create one for yourself with C#. To create a Twitter bot, you must first connect to the Twitter API. The same is true for other social media platforms. You can program the bot to respond to specific keywords.
+
+Logistics Tracking App 
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    You can create a simple logistic tracking app that can be used by companies that ship goods to customers all over the world. With just a few functions, like a search box where users can enter a product’s tracking number and a feature to email notifications to the recipient whenever the tracking information for the product changes, this application is a good C# project for beginners.
+
+
+
+
+Best Intermediate C# Project Ideas
+        
+        Once you feel comfortable with the C# projects for beginners, you’re ready to take things a step further and keep building your skill level by completing intermediate C# projects. These projects for mid-level programming in C# require more lines of code and more complex interactions between different modules.
+
+Healthcare Management  System 
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    A basic hospital or healthcare management system can be designed with C#, .Net, and a fundamental understanding of SQL database management. This Windows application should have features needed to run the hospital’s administrative services smoothly, including a login page for workers in the hospital and a library of patient profiles. This may seem like a complicated goal, but it’s a project that uses intermediate C# skills.
+
+Digital Signature App 
+    C# Skills Practiced: .Net, Microsoft SQL Server 
+    As more business is conducted online, digital signatures are used to finalize all kinds of online contracts. The most practical method of remotely signing online contracts is to use a simple digital signature app. This open-source C# project requires intermediate C# programming skills, Visual Basic for the front end, and MS Access for the backend.
+
+Shopping Cart App 
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    Ecommerce and shopping cart apps are popular projects for app developers. If you don’t want to create an entire ecommerce app, you can start by creating a shopping cart for a website that provides paid products or services. The user interface must be functional, and the cart must be simple to use. You will also need to add a checkout page with payment options and a submit button.
+
+Personal Information Organizer 
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    This intermediate C# project idea combines a calendar app with an extensive to-do list. You should be able to use it to organize your daily activities, set reminders, and record other information that will assist you in completing your tasks. You should also be able to save any personal information you frequently use for easy access.
+
+Payroll Management System
+    C# Skills Practiced: Coding, .Net Framework, Microsoft SQL Server
+    This project might be a little more challenging than the others on this list, but you can make it as simple as you want to make it an appropriate C# project for an intermediate programmer. The final product will be an enterprise-scale payroll management system designed for a smaller workforce. The software should include a list of employees, options to add or remove employees from the payroll, and admin login details. 
+
+
+
+
+
+Advanced C# Project Ideas
+
+        The final set of fun C# projects is designed for developers who have several months or more of experience with C# and related technologies. These C# projects are more complex and take longer to complete than beginner or intermediate projects. From functional management software to a racing game, you’ll find a wide range of advanced C# programming projects listed below. 
+
+Car Racing Game 
+    C# Skills Practiced: Object Oriented Programming, Coding, .Net Framework, Microsoft SQL Server
+    One of the best games you can create with C# is a car-driving game. However, you will need more than C#, a Microsoft server, and the Net framework for this project. You will also need a game engine to help speed up the game development process. Some of the best game engines for C# games are Unity, Stride, Godot, Wave, and CryEngine. 
+
+Student Management Software 
+    C# Skills Practiced: Object Oriented Programming, Coding, .Net Framework, Microsoft SQL Server
+    You will need advanced knowledge of C# and MySQL to build this application that allows schools to keep track of student records. Each student will have their own page that can be edited or deleted as needed. You’ll also learn how to build an option for interval evaluation so that each student’s performance is easily accessible.
+
+Employee Management Software 
+    C# Skills Practiced: Object Oriented Programming, Coding, .Net Framework, Microsoft SQL Server 
+    The goal of this software is to assist employers in efficiently managing their employees’ work schedules, personal information, and other critical employee information. Data security is a priority for an app like this with sensitive information, and through this advanced C# programming project, you’ll learn how to securely store and access important information. 
+
+Ad Tracking System 
+    C# Skills Practiced: Object Oriented Programming, Coding, .Net Framework, Microsoft SQL Server 
+    An advertisement tracking system, also known as an advertisement analytic system, is software that digital marketers use to track and manage ad campaigns. You can complete this professional project by combining Visual Studio, ASP, C#, and MySQL. Key features are an admin portal for accessing detailed reports and an option to download reports in pdf format. 
+
+Hotel Management Software  
+    C# Skills Practiced: Object Oriented Programming, Coding, .Net Framework, Microsoft SQL Server 
+    Like other parts of the hospitality industry, large volumes of data flow through hotels daily. You can create hotel management software to manage information in a robust database that handles bookings, reservations, available dates, pricing, and payments. The framework for this project is fairly simple, so advanced programmers have the freedom to brainstorm and build more complex modules.
+
+Sample C# Projects With Source Code
+From beginners to advanced developers, sample C# projects are useful to see examples of strong code. These ready-made templates contain source code that you can use as the foundation of your projects. While there aren’t currently many active C# templates, there are .Net Framework templates that can be used for C# projects.
+
+.NET Framework React Desktop Apps. This framework is ideal for developing desktop apps with C#. It is compatible with Winforms, ASP.NET, and OSX Cocoa. Just download the source code, install it, and manipulate it to fit your project. While the primary programing language for this template is C#, you can use JavaScript, HTML, TypeScript, CSS, and EJS. 
+.NET Framework Website with ServiceStack.Razor. This razor-netfx framework template is most commonly used with C#, HTML, and TypeScript. This C# project is on GitHub, but you can learn more about it on the official razor-netfx website. 
+.NET Framework self-hosting HttpListener Console App. Are you thinking of using C# to design a self-hosting console app? This template might be the right fit. While other templates on this list are compatible with several programming languages, this one is designed for C#.  
