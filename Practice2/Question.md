@@ -1,0 +1,7 @@
+## Online Store
+
+1. User can purchase an item using the online Store
+2. Each item must be displayed for the user to choose
+3. Each item will contain a title and a price
+4. Each item must also contain unique properties
+
