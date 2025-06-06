@@ -2,179 +2,321 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avinash Yadav - Senior Unity Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avinash Yadav | Unity Tech Lead</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        #progressBar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 5px;
+            background: #0099ff;
+            z-index: 9999;
+            transition: width 0.25s;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+            animation: fadeIn 2s ease-in;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0099ff;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 1s forwards;
+        }
+
+        section:nth-child(even) {
+            animation-delay: 0.3s;
+        }
+
+        section:nth-child(odd) {
+            animation-delay: 0.6s;
+        }
+
+        .projects img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #222;
+            color: white;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .contact a {
+            color: #0099ff;
+            text-decoration: none;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #0099ff;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="progressBar"></div>
     <header>
-        <div class="container">
-            <h1>Avinash Yadav</h1>
-            <p>Senior Unity Developer</p>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Avinash Yadav</h1>
+        <p>Unity Tech Lead | Game Designer | AI Enthusiast</p>
+        <a href="https://avinashyadav.itch.io" target="_blank" style="color:#0f0;">Portfolio</a> |
+        <a href="https://github.com/Avin19" target="_blank" style="color:#0f0;">GitHub</a>
     </header>
-
-    <section id="home">
-        <div class="container">
-            <h2>Welcome to my Portfolio</h2>
-            <p>Hello! I'm Avinash, a passionate Senior Unity Developer with extensive experience in game development and
-                AR/VR technologies.</p>
-            <div class="featured-project">
-                <img src="featured-project.jpg" alt="Featured Project">
-                <h3>Explore my latest game projects</h3>
-            </div>
-        </div>
-    </section>
-
     <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am a game developer with several years of experience in creating engaging and immersive game
-                experiences. I have a strong background in Unity development and have worked on various projects ranging
-                from hyper-casual games to complex AR/VR applications.</p>
-            <h3>Professional Experience</h3>
-            <ul>
-                <li>Senior Unity Developer at W3 Villa Pvt. LTD., Noida (Oct 2023 - Present)</li>
-                <li>Unity Developer at Hestabit Technologies, Noida (Feb 2022 - Jul 2023)</li>
-                <li>Senior Technical Consultant at LLF, Delhi (Nov 2020 - Feb 2022)</li>
-                <li>Associate Software Engineer at NIIT, Delhi (May 2020 - Jul 2020)</li>
-                <li>Jr. Unity Game Developer (Freelancer) on Fiverr, Pune (Mar 2019 - Mar 2020)</li>
-                <li>Associate Software Engineer at Yolo Gaming, Chennai (Jan 2017 - Dec 2018)</li>
-            </ul>
-            <h3>Education</h3>
-            <ul>
-                <li>B.E Mechanical Engineering, Anna University, Chennai (2012-2016) - CGPA: 7.36</li>
-                <li>Outscal - Game Development Advance (Mar 2024 - May 2024)</li>
-            </ul>
-            <a href="Avinash_Yadav_Resume.pdf" download>Download Resume</a>
-        </div>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Unity Tech Lead with over 7 of experience in game development,
+            specializing in real-time multiplayer, AI-driven design, and AR/VR applications. I enjoy creating
+            engaging, narrative-rich experiences and leveraging technology to build immersive gameplay.
+        </p>
+        <h2>Skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Technologies</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Languages</td>
+                    <td>C# (Advanced), Python (Beginner), C++ (Beginner)</td>
+                </tr>
+                <tr>
+                    <td>Game Engines</td>
+                    <td>Unity 3D/2D, Unreal Engine (Beginner)</td>
+                </tr>
+                <tr>
+                    <td>Multiplayer</td>
+                    <td>Photon, Mirror, Colyseus (Node.js)</td>
+                </tr>
+                <tr>
+                    <td>Design Patterns</td>
+                    <td>OOP, MVC, State Machine, Service Locator, DI, Observer</td>
+                </tr>
+                <tr>
+                    <td>AR/VR & Tools</td>
+                    <td>ARCore, Lightship, PlayMaker, IronSource, Shader Graph, Timeline</td>
+                </tr>
+                <tr>
+                    <td>Other Tools</td>
+                    <td>Git, Blender (Low Poly), Krita, Inkscape, Nomad Sculpt</td>
+                </tr>
+            </tbody>
+        </table>
+
+
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>TS Scanning Ortho</h3>
-                <p>Mesh Scanning, Measurement, and Smoothing using Netcore Unity Networking.</p>
-            </div>
-            <div class="project">
-                <h3>Upblock - Stack the Blocks</h3>
-                <p>Developed a stacking game available on the Play Store. Responsible for entire programming.</p>
-                <a href="https://play.google.com/store/apps/details?id=app.upblock&hl=en&gl=US" target="_blank">Play
-                    Store</a>
-            </div>
-            <div class="project">
-                <h3>Danky Dunk</h3>
-                <p>Integrated IronSource SDK for this game available on the Play Store.</p>
-                <a href="https://play.google.com/store/apps/details?id=app.dankydunk&hl=en&gl=US" target="_blank">Play
-                    Store</a>
-            </div>
-            <div class="project">
-                <h3>Wave</h3>
-                <p>Hyper Casual Game deployed on the Play Store.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.mechbyte.Wave2" target="_blank">Play
-                    Store</a>
-            </div>
-            <div class="project">
-                <h3>Resistor Code</h3>
-                <p>Android application to determine the resistor value.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.avinashyadav.resistorcode"
-                    target="_blank">Play Store</a>
-            </div>
-            <div class="project">
-                <h3>LQS Post Box</h3>
-                <p>Android application available on the Play Store.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.LQSPostbox.avinashyadav" target="_blank">Play
-                    Store</a>
-            </div>
-            <div class="project">
-                <h3>Itch.io Projects</h3>
-                <ul>
-                    <li><a href="https://avinashyadav.itch.io/" target="_blank">Game 1</a></li>
-                    <li><a href="https://avinashyadav.itch.io/game2" target="_blank">Game 2</a></li>
-                    <!-- Add more itch.io games with similar structure -->
-                </ul>
-            </div>
-            <div id="itchio-projects" class="project">
-                <h3>Itch.io Projects</h3>
-                <ul id="itchio-game-list"></ul>
-            </div>
-        </div>
+    <section id="github">
+        <h2>GitHub Contributions</h2>
+        <h2>Here’s a live snapshot of my GitHub activity:</h2>
+        <img src="https://ghchart.rshah.org/Avin19" alt="Avinash Yadav's GitHub chart"
+            style="width:100%; max-width: 800px; border: 1px solid #ffffff; padding: 10px; background: rgb(255, 255, 255);" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Avin19&&show_icons=true&title_color=66ff33&icon_color=bb2ade&text_color=191919&bg_color=daf7dc"
+            style="width:100%; max-width: 800px; border: 1px solid #ffffff; padding: 10px; background: rgb(255, 255, 255);">
+
     </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
+
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+
+        <h3>Unity Tech Lead – Magic Software Pvt. Ltd.</h3>
+        <p><strong>Location:</strong> Noida | <strong>Aug 2024 – Present</strong></p>
+        <ul>
+            <li>Leading Unity-based projects with a focus on performance and scalability.</li>
+            <li>Implemented accessibility features (A11y) across key projects.</li>
+            <li>Conducted R&D and provided strategic insights for project success.</li>
+            <li>Managed team workflows and best practices in AR/VR game development.</li>
+        </ul>
+
+        <h3>Senior Unity Developer – W3 Villa Pvt. Ltd.</h3>
+        <p><strong>Location:</strong> Noida | <strong>Oct 2023 – Apr 2024</strong></p>
+        <ul>
+            <li>Led AR development using iOS LiDAR and depth sensor data.</li>
+            <li>Created backend services using Python and Node.js for AI workflows.</li>
+            <li>Built <a href="https://avinashyadav.itch.io/quantumstrike" target="_blank">QuantumStrike</a> (Photon
+                FPS) & a Naval Battle game (Node.js backend).</li>
+            <li>Handled mesh scanning, smoothing, and API-based backend processing.</li>
+        </ul>
+
+        <h3>Unity Developer – Hestabit Technologies</h3>
+        <p><strong>Location:</strong> Noida | <strong>Feb 2022 – Jul 2023</strong></p>
+        <ul>
+            <li>Developed IoT-based games with Unity and real-time device connectivity.</li>
+            <li>Released <a href="https://play.google.com/store/apps/details?id=app.upblock" target="_blank">Upblock</a>
+                (Firebase auth, crashlytics).</li>
+            <li>Integrated IronSource SDK in Danky Dunk.</li>
+            <li>Designed scalable navigation and control systems for drones.</li>
+        </ul>
+
+        <h3>Senior Technical Consultant – LLF</h3>
+        <p><strong>Location:</strong> Delhi | <strong>Nov 2020 – Feb 2022</strong></p>
+        <ul>
+            <li>Launched educational games with gamification and strong user engagement.</li>
+            <li>Developed <a href="https://avinashyadav.itch.io/kitchen" target="_blank">KitchenManager</a> and <a
+                    href="https://avinashyadav.itch.io/builderdefender" target="_blank">BuilderDefender</a>.</li>
+            <li>Built multiplayer with Photon and industrial digital twin simulations.</li>
+        </ul>
+
+        <h3>Associate Software Engineer – NIIT</h3>
+        <p><strong>Location:</strong> Delhi | <strong>May 2020 – Jul 2020</strong></p>
+        <ul>
+            <li>Created Python learning modules with interactive simulations.</li>
+            <li>Developed a VR cyclist training simulation.</li>
+        </ul>
+
+        <h3>Freelance Unity Developer – Fiverr</h3>
+        <p><strong>Location:</strong> Pune | <strong>Mar 2019 – Mar 2020</strong></p>
+        <ul>
+            <li>Released <strong>Wave</strong> (hyper-casual Android game).</li>
+            <li>Developed <strong>Resistor Code</strong> app (IoT + Unity), <strong>LQS Post Box</strong> (Mapbox
+                integration).</li>
+        </ul>
+
+        <h3>Associate Software Engineer – Yolo Gaming</h3>
+        <p><strong>Location:</strong> Chennai | <strong>Jan 2017 – Dec 2018</strong></p>
+        <ul>
+            <li>Developed 2D educational games using Unity.</li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <a href="/Avinash_Yadav_Cover_Letter.pdf" download>Download Resume PDF</a>
+    </section>
+
+
+    <section id="portfolio">
+        <h2>Featured Projects</h2>
+        <div class="projects">
             <ul>
-                <li><strong>Programming Languages:</strong> C# (Intermediate), Python (Beginner), C++ (Beginner)</li>
-                <li><strong>Game Engines:</strong> Unity 3D/2D, Unreal Engine (Beginner)</li>
-                <li><strong>Design Patterns:</strong> OOP, Service Locator, DI, MVC, State, Command, Observer</li>
-                <li><strong>Tools:</strong> Blender (Low Poly), Krita, Inkscape, Git, Nomad Sculpt</li>
-                <li><strong>SDKs:</strong> IronSource, Lightship, Mirror, Netcore, ARKit, ARCore</li>
-                <li><strong>Other Tech Stack:</strong> AR/VR, 3D printing, IoT</li>
-                <li><strong>Design Principles:</strong> SOLID, DOTS (Learning), ESC</li>
+                <li><a href="https://avinashyadav.itch.io/quantumstrike" target="_blank">QuantumStrike</a> – FPS
+                    multiplayer game built with Unity and Photon.</li>
+                <li><a href="https://avinashyadav.itch.io/echoes-of-the-forgotten" target="_blank">Echoes of the
+                        Forgotten</a> – Puzzle exploration game as A.R.I.S., uncovering lost memories.</li>
+                <li><a href="https://avinashyadav.itch.io/celestial-tether" target="_blank">Celestial Tether</a> – A
+                    magical journey through fantasy realms.</li>
+                <li><a href="https://avinashyadav.itch.io/earths-last-stand" target="_blank">Earth’s Last Stand</a> –
+                    Humanity's final strategy for survival.</li>
+                <li><a href="https://avinashyadav.itch.io/horror-escape" target="_blank">Horror Escape</a> – Survival
+                    game in terrifying environments.</li>
+                <li><a href="https://avinashyadav.itch.io/light-flickering" target="_blank">Light Flickering</a> – An
+                    experimental Unity lighting demo.</li>
+                <li><a href="https://avinashyadav.itch.io/kitchen-manager" target="_blank">Kitchen Manager</a> –
+                    Resource/time management game.</li>
+                <li><a href="https://avinashyadav.itch.io/2dplatformer" target="_blank">2D Platformer</a> – Classic
+                    Unity platformer project.</li>
+                <li><a href="https://avinashyadav.itch.io/builderdefender" target="_blank">BuilderDefender</a> – 2D
+                    hybrid of base building and tower defense.</li>
             </ul>
         </div>
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to discuss potential projects or collaborations.</p>
-            <form action="mailto:avinashy1993@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/avinash-yadav-43057196" target="_blank">LinkedIn</a>
-                <a href="https://github.com/Avin19" target="_blank">GitHub</a>
-                <a href="https://avinashyadav.itch.io/" target="_blank">Itch.io</a>
-            </div>
-        </div>
+        <h2>Contact</h2>
+        <p class="contact">
+            📧 <a href="mailto:avinashy1993@gmail.com">avinashy1993@gmail.com</a><br />
+            🔗 <a href="https://www.linkedin.com/in/avinash-yadav-43057196/" target="_blank">LinkedIn</a>
+        </p>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Avinash Yadav. All rights reserved.</p>
-        </div>
+        <p>© 2025 Avinash Yadav. All rights reserved.</p>
     </footer>
-    <script type="text/javascript" src="https://static.itch.io/api.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            Itch.getUserGames({
-                user: "your_username", // Replace "your_username" with your itch.io username
-                onComplete: function (data) {
-                    console.log(data);
-                    // Iterate through each game and fetch its data
-                    data.games.forEach(function (game) {
-                        Itch.getGameData({
-                            user: game.user,
-                            game: game.short_url,
-                            onComplete: function (gameData) {
-                                console.log(gameData);
-                                // You can access the data for each game here and manipulate it as needed
-                            }
-                        });
-                    });
-                }
-            });
-        });
+
+    <script>
+        window.onscroll = function () {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+        };
     </script>
 </body>
 
